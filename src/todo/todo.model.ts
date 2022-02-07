@@ -5,3 +5,8 @@ export class ToDoModel {
     title: string;
     text: string;
 };
+
+export class UpdateParamsT {
+    id: string;
+    state: StateT;
+};
